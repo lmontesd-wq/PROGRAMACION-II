@@ -1,8 +1,0 @@
-#BlueJ class context
-#Sun Sep 13 22:40:46 CST 2026
-comment0.target=Solicitante
-comment1.params=strCodigo strNombre strCorreo strDepartamento strExtension
-comment1.target=Solicitante(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
-comment2.target=java.lang.String obtenerRol()
-comment3.target=void mostrarInformacion()
-numComments=4

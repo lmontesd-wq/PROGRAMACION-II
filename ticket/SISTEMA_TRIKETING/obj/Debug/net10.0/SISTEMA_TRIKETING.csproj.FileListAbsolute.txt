@@ -1,4 +1,0 @@
-C:\Users\eliez\OneDrive\Documentos\PROGRA II\SISTEMA_TRIKETING\obj\Debug\net10.0\SISTEMA_TRIKETING.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\eliez\OneDrive\Documentos\PROGRA II\SISTEMA_TRIKETING\obj\Debug\net10.0\SISTEMA_TRIKETING.AssemblyInfoInputs.cache
-C:\Users\eliez\OneDrive\Documentos\PROGRA II\SISTEMA_TRIKETING\obj\Debug\net10.0\SISTEMA_TRIKETING.AssemblyInfo.cs
-C:\Users\eliez\OneDrive\Documentos\PROGRA II\SISTEMA_TRIKETING\obj\Debug\net10.0\SISTEMA_TRIKETING.csproj.CoreCompileInputs.cache

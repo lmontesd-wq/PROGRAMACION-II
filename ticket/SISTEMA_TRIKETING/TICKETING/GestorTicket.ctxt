@@ -1,9 +1,0 @@
-#BlueJ class context
-#Sun Sep 13 22:41:50 CST 2026
-comment0.target=GestorTicket
-comment1.target=GestorTicket()
-comment2.params=intNumero strAsunto strDescripcion strCategoria strPrioridad objSolicitante
-comment2.target=Ticket crearTicket(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, Solicitante)
-comment3.params=intNumero
-comment3.target=Ticket buscarTicket(int)
-numComments=4
