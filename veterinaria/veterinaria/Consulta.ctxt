@@ -1,0 +1,9 @@
+#BlueJ class context
+#Wed Sep 23 22:47:36 CST 2026
+comment0.target=Consulta
+comment0.text=\r\n Write a description of class Consulta here.\r\n \r\n @author (your name) \r\n @version (a version number or a date)\r\n
+comment1.params=motivo diagnostico mascota
+comment1.target=Consulta(java.lang.String, java.lang.String, Mascota)
+comment2.target=void mostrarConsulta()
+comment3.target=Mascota getMascota()
+numComments=4

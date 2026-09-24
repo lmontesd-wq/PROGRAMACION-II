@@ -1,0 +1,14 @@
+C:\Users\luism\OneDrive\Escritorio\veterinaria\bin\Debug\net10.0\veterinaria.exe
+C:\Users\luism\OneDrive\Escritorio\veterinaria\bin\Debug\net10.0\veterinaria.deps.json
+C:\Users\luism\OneDrive\Escritorio\veterinaria\bin\Debug\net10.0\veterinaria.runtimeconfig.json
+C:\Users\luism\OneDrive\Escritorio\veterinaria\bin\Debug\net10.0\veterinaria.dll
+C:\Users\luism\OneDrive\Escritorio\veterinaria\bin\Debug\net10.0\veterinaria.pdb
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\veterinaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\veterinaria.AssemblyInfoInputs.cache
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\veterinaria.AssemblyInfo.cs
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\veterinaria.csproj.CoreCompileInputs.cache
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\veterinaria.dll
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\refint\veterinaria.dll
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\veterinaria.pdb
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\veterinaria.genruntimeconfig.cache
+C:\Users\luism\OneDrive\Escritorio\veterinaria\obj\Debug\net10.0\ref\veterinaria.dll

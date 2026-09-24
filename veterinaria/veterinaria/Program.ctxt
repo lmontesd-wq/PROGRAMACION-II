@@ -1,0 +1,8 @@
+#BlueJ class context
+#Wed Sep 23 22:50:19 CST 2026
+comment0.target=Program
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment2.target=void registrarMascota()
+comment3.target=void registrarConsulta()
+numComments=4
