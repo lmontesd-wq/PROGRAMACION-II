@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VeterinariaV2.Vistas.ConsultasWindow"
+        Title="Consultas" Width="940" Height="600">
+  <Grid ColumnDefinitions="330,*" Margin="16">
+    <StackPanel Grid.Column="0" Spacing="6" Margin="0,0,16,0">
+      <TextBlock Text="Cita"/>
+      <ComboBox x:Name="cmbCita" HorizontalAlignment="Stretch"/>
+      <TextBlock Text="Diagnóstico"/>
+      <TextBox x:Name="txtDiagnostico" AcceptsReturn="True" Height="80" TextWrapping="Wrap"/>
+      <TextBlock Text="Tratamiento"/>
+      <TextBox x:Name="txtTratamiento" AcceptsReturn="True" Height="80" TextWrapping="Wrap"/>
+      <TextBlock Text="Observaciones"/>
+      <TextBox x:Name="txtObservaciones" AcceptsReturn="True" Height="70" TextWrapping="Wrap"/>
+      <StackPanel Orientation="Horizontal" Spacing="6" Margin="0,10,0,0">
+        <Button Content="Nuevo" Click="BtnNuevo_Click"/>
+        <Button Content="Guardar" Click="BtnGuardar_Click"/>
+        <Button Content="Eliminar" Click="BtnEliminar_Click"/>
+      </StackPanel>
+      <TextBlock x:Name="lblMensaje" Foreground="OrangeRed" TextWrapping="Wrap"/>
+    </StackPanel>
+    <StackPanel Grid.Column="1" Spacing="6">
+      <TextBlock x:Name="lblTitulo" FontSize="16"/>
+      <ListBox x:Name="lstConsultas" Height="490"
+               SelectionChanged="LstConsultas_SelectionChanged"/>
+    </StackPanel>
+  </Grid>
+</Window>

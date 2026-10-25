@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VeterinariaV2.Vistas.MascotasWindow"
+        Title="Mascotas" Width="800" Height="540">
+  <Grid ColumnDefinitions="300,*" Margin="16">
+    <StackPanel Grid.Column="0" Spacing="6" Margin="0,0,16,0">
+      <TextBlock Text="Propietario"/>
+      <ComboBox x:Name="cmbPropietario" HorizontalAlignment="Stretch"/>
+      <TextBlock Text="Nombre"/>
+      <TextBox x:Name="txtNombre"/>
+      <TextBlock Text="Especie (perro, gato...)"/>
+      <TextBox x:Name="txtEspecie"/>
+      <TextBlock Text="Raza"/>
+      <TextBox x:Name="txtRaza"/>
+      <TextBlock Text="Sexo"/>
+      <ComboBox x:Name="cmbSexo" HorizontalAlignment="Stretch"/>
+      <TextBlock Text="Fecha de nacimiento"/>
+      <DatePicker x:Name="dpNacimiento"/>
+      <StackPanel Orientation="Horizontal" Spacing="6" Margin="0,10,0,0">
+        <Button Content="Nuevo" Click="BtnNuevo_Click"/>
+        <Button Content="Guardar" Click="BtnGuardar_Click"/>
+        <Button Content="Eliminar" Click="BtnEliminar_Click"/>
+      </StackPanel>
+      <TextBlock x:Name="lblMensaje" Foreground="OrangeRed" TextWrapping="Wrap"/>
+    </StackPanel>
+    <ListBox x:Name="lstMascotas" Grid.Column="1"
+             SelectionChanged="LstMascotas_SelectionChanged"/>
+  </Grid>
+</Window>

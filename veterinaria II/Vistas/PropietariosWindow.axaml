@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VeterinariaV2.Vistas.PropietariosWindow"
+        Title="Propietarios" Width="720" Height="460">
+  <Grid ColumnDefinitions="280,*" Margin="16">
+    <StackPanel Grid.Column="0" Spacing="6" Margin="0,0,16,0">
+      <TextBlock Text="Nombre"/>
+      <TextBox x:Name="txtNombre"/>
+      <TextBlock Text="Teléfono"/>
+      <TextBox x:Name="txtTelefono"/>
+      <TextBlock Text="Correo"/>
+      <TextBox x:Name="txtCorreo"/>
+      <TextBlock Text="Dirección"/>
+      <TextBox x:Name="txtDireccion"/>
+      <StackPanel Orientation="Horizontal" Spacing="6" Margin="0,10,0,0">
+        <Button Content="Nuevo" Click="BtnNuevo_Click"/>
+        <Button Content="Guardar" Click="BtnGuardar_Click"/>
+        <Button Content="Eliminar" Click="BtnEliminar_Click"/>
+      </StackPanel>
+      <TextBlock x:Name="lblMensaje" Foreground="OrangeRed" TextWrapping="Wrap"/>
+    </StackPanel>
+    <ListBox x:Name="lstPropietarios" Grid.Column="1"
+             SelectionChanged="LstPropietarios_SelectionChanged"/>
+  </Grid>
+</Window>

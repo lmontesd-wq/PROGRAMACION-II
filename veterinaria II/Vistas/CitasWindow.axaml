@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VeterinariaV2.Vistas.CitasWindow"
+        Title="Citas" Width="900" Height="580">
+  <Grid ColumnDefinitions="Auto,*" Margin="16">
+    <StackPanel x:Name="pnlFormulario" Grid.Column="0" Width="300" Spacing="6" Margin="0,0,16,0">
+      <TextBlock Text="Mascota"/>
+      <ComboBox x:Name="cmbMascota" HorizontalAlignment="Stretch"/>
+      <TextBlock Text="Veterinario"/>
+      <ComboBox x:Name="cmbVeterinario" HorizontalAlignment="Stretch"/>
+      <TextBlock Text="Fecha"/>
+      <DatePicker x:Name="dpFecha"/>
+      <TextBlock Text="Hora"/>
+      <TimePicker x:Name="tpHora" ClockIdentifier="24HourClock" MinuteIncrement="5"/>
+      <TextBlock Text="Motivo"/>
+      <TextBox x:Name="txtMotivo" AcceptsReturn="True" Height="70" TextWrapping="Wrap"/>
+      <TextBlock Text="Estado"/>
+      <ComboBox x:Name="cmbEstado" HorizontalAlignment="Stretch"/>
+      <StackPanel Orientation="Horizontal" Spacing="6" Margin="0,10,0,0">
+        <Button Content="Nuevo" Click="BtnNuevo_Click"/>
+        <Button Content="Guardar" Click="BtnGuardar_Click"/>
+        <Button Content="Eliminar" Click="BtnEliminar_Click"/>
+      </StackPanel>
+      <TextBlock x:Name="lblMensaje" Foreground="OrangeRed" TextWrapping="Wrap"/>
+    </StackPanel>
+    <StackPanel Grid.Column="1" Spacing="6">
+      <TextBlock x:Name="lblTitulo" FontSize="16"/>
+      <ListBox x:Name="lstCitas" Height="460"
+               SelectionChanged="LstCitas_SelectionChanged"/>
+    </StackPanel>
+  </Grid>
+</Window>

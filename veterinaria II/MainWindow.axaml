@@ -1,0 +1,15 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VeterinariaV2.MainWindow"
+        Title="Control Clínico Veterinario v2" Width="500" Height="520">
+  <StackPanel Margin="24" Spacing="10">
+    <TextBlock Text="Sistema de Control Clínico Veterinario" FontSize="20"/>
+    <TextBlock x:Name="lblSesion"/>
+    <Button x:Name="btnUsuarios" Content="Usuarios" IsVisible="False" Click="BtnUsuarios_Click"/>
+    <Button x:Name="btnPropietarios" Content="Propietarios" IsVisible="False" Click="BtnPropietarios_Click"/>
+    <Button x:Name="btnMascotas" Content="Mascotas" IsVisible="False" Click="BtnMascotas_Click"/>
+    <Button x:Name="btnCitas" Content="Citas" IsVisible="False" Click="BtnCitas_Click"/>
+    <Button x:Name="btnConsultas" Content="Consultas" IsVisible="False" Click="BtnConsultas_Click"/>
+    <Button x:Name="btnVacunacion" Content="Vacunación" IsVisible="False" Click="BtnVacunacion_Click"/>
+  </StackPanel>
+</Window>

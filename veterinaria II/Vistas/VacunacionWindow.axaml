@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VeterinariaV2.Vistas.VacunacionWindow"
+        Title="Vacunación" Width="900" Height="580">
+  <Grid ColumnDefinitions="300,*" Margin="16">
+    <StackPanel Grid.Column="0" Spacing="6" Margin="0,0,16,0">
+      <TextBlock Text="Mascota"/>
+      <ComboBox x:Name="cmbMascota" HorizontalAlignment="Stretch"/>
+      <TextBlock Text="Vacuna"/>
+      <TextBox x:Name="txtVacuna"/>
+      <TextBlock Text="Fecha de aplicación"/>
+      <DatePicker x:Name="dpAplicacion"/>
+      <TextBlock Text="Próxima dosis (opcional)"/>
+      <DatePicker x:Name="dpProxima"/>
+      <CheckBox x:Name="chkSinProxima" Content="Sin próxima dosis"/>
+      <StackPanel Orientation="Horizontal" Spacing="6" Margin="0,10,0,0">
+        <Button Content="Nuevo" Click="BtnNuevo_Click"/>
+        <Button Content="Guardar" Click="BtnGuardar_Click"/>
+        <Button Content="Eliminar" Click="BtnEliminar_Click"/>
+      </StackPanel>
+      <TextBlock x:Name="lblMensaje" Foreground="OrangeRed" TextWrapping="Wrap"/>
+    </StackPanel>
+    <ListBox x:Name="lstVacunas" Grid.Column="1"
+             SelectionChanged="LstVacunas_SelectionChanged"/>
+  </Grid>
+</Window>

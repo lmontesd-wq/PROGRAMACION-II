@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="VeterinariaV2.Vistas.LoginWindow"
+        Title="Iniciar sesión" Width="360" Height="320"
+        WindowStartupLocation="CenterOwner" CanResize="False">
+  <StackPanel Margin="24" Spacing="8">
+    <TextBlock Text="Iniciar sesión" FontSize="20"/>
+    <TextBlock Text="Usuario"/>
+    <TextBox x:Name="txtUsuario"/>
+    <TextBlock Text="Contraseña"/>
+    <TextBox x:Name="txtClave" PasswordChar="*"/>
+    <Button Content="Entrar" IsDefault="True" Click="BtnEntrar_Click"
+            HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+            Margin="0,8,0,0"/>
+    <TextBlock x:Name="lblMensaje" Foreground="OrangeRed" TextWrapping="Wrap"/>
+  </StackPanel>
+</Window>
